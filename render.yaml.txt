@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: tip-agent
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    plan: free
